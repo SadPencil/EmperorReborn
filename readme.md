@@ -1,3 +1,5 @@
+*This repo is a fork of [azmawee/EmperorReborn](https://github.com/azmawee/EmperorReborn)*
+
 # Emperor Reborn
 
 Emperor Reborn is a free, open-source launcher to play *Emperor: Battle for Dune* (Westwood, 2001) on
@@ -99,21 +101,6 @@ without resizing the desktop. Otherwise skip "Desktop" and use 1280x720 widescre
 you want it sharper) with Fullscreen ticked. If the image still sits centered in a small box, your GPU
 is set to "no scaling", switch it to Full-screen in the NVIDIA Control Panel (*Adjust desktop size and
 position*), or the AMD/Intel equivalent.
-
-## Verify your download
-
-Every release is checksummed so you can confirm a download is the real one and not a tampered copy with
-something slipped in. The official SHA256 hashes are published on the
-[site](https://azmawee.github.io/EmperorReborn/) and in the release notes. Check the zip in PowerShell
-with
-
-```powershell
-Get-FileHash .\EmperorReborn-v2.5.zip -Algorithm SHA256
-```
-
-and compare it to the published hash. The zip also carries a `SHA256SUMS.txt` listing the hashes of the
-two executables, so you can verify those after extracting. If a copy you got from anywhere does not
-match, do not run it.
 
 ## Multiplayer
 

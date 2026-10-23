@@ -4,25 +4,6 @@ description: "Download Emperor: Battle for Dune for Windows 10 and 11 with real 
 image: /icon/og-card.png
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Emperor Reborn",
-  "alternateName": "Emperor: Battle for Dune widescreen launcher",
-  "applicationCategory": "GameApplication",
-  "operatingSystem": "Windows 10, Windows 11",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "softwareVersion": "2.5",
-  "downloadUrl": "https://github.com/azmawee/EmperorReborn/releases/latest",
-  "url": "https://azmawee.github.io/EmperorReborn/",
-  "author": { "@type": "Person", "name": "azmawee" },
-  "description": "Play Emperor: Battle for Dune on Windows 10 and 11 with real 16:9 widescreen, fullscreen scaling, the original resolutions and direct-IP multiplayer."
-}
-</script>
-
-<p align="center"><img src="{{ '/icon/banner.png' | relative_url }}" alt="Emperor Reborn - Emperor: Battle for Dune in true 16:9 widescreen" style="width:100%;max-width:960px;height:auto"></p>
-
 # Emperor Reborn
 
 Emperor Reborn is a free, open-source launcher that runs *Emperor: Battle for Dune* (Westwood, 2001) on
@@ -36,22 +17,6 @@ fullscreen scaling and working multiplayer.
 [**Source on GitHub**](https://github.com/azmawee/EmperorReborn)
 &nbsp;|&nbsp;
 [**Install guide**](https://github.com/azmawee/EmperorReborn/blob/main/INSTALL.txt)
-
-## Verify your download
-
-Every release is checksummed so you can confirm a download is the real build and not a tampered copy
-with something slipped in. These are the official SHA256 hashes for the latest release, served over
-HTTPS from this site. If a copy you got from anywhere does not match, do not run it.
-
-Check the zip in PowerShell with `Get-FileHash .\EmperorReborn-v2.5.zip -Algorithm SHA256` (or
-`certutil -hashfile EmperorReborn-v2.5.zip SHA256`) and compare it to the hashes below. Each zip also
-carries a `SHA256SUMS.txt` listing the two executables, so you can verify those after extracting.
-
-```
-zip                d029a9c0820b91855504066705fd95ae51cddcfab0a5df6aad4a336a6875fd81
-EmperorReborn.exe  a8e306c4a01e77a6e3f541ad106fd9574a799b8263c2f66b277398adc6e82830
-EmperorHooks.dll   9b4378738e1e404782dfaec9f5e8a1bb6d5dcc75d976468f5f82dbd3f5f37c0b
-```
 
 ## Antivirus false positive
 
@@ -67,9 +32,6 @@ The detection names give the game away. They are all generic, things like `Gen:V
 real malware family with a known payload, which is what you would see if this were genuinely infected.
 The count also looks bigger than it is because many of those engines share one scanner, the single
 BitDefender `Doris` detection alone shows up under seven different vendor names.
-
-You can see the full report for the current release here,
-[VirusTotal report for EmperorReborn-v2.5.zip](https://www.virustotal.com/gui/file/d029a9c0820b91855504066705fd95ae51cddcfab0a5df6aad4a336a6875fd81).
 
 You do not have to take my word for any of this. The entire source is on
 [GitHub](https://github.com/azmawee/EmperorReborn). Read it, and if you would rather not trust my
